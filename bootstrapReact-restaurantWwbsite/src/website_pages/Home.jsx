@@ -10,6 +10,7 @@ import f6 from "../assets/f6.png";
 import f7 from "../assets/f7.png";
 import f8 from "../assets/f8.png";
 import f9 from "../assets/f9.png";
+import aboutImg from "../assets/aboutImg.png";
 function Home() {
 
     return (
@@ -244,7 +245,7 @@ function Home() {
                 </div>
 
 
-                
+
                 <div className="col-md-3">
                     <div className="card rounded-5">
                         <div className="card-header d-flex justify-content-center">
@@ -278,9 +279,25 @@ function Home() {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                <div className="col-md-2">
-                    <Link className="px-5 btn btn-primary ms-5 rounded-5">View More</Link>
+                    <div className="col-md-2">
+                        <Link className="px-5 btn btn-primary ms-5 rounded-5">View More</Link>
+                    </div>
                 </div>
+            </div>
+
+            {/* End Menu Section */}
+
+
+            {/* Start We Are Feane Section*/}
+
+            <div className="row bg-dark text-white mt-5 justify-content-center align-items-center">
+                <div className="col-md-4">
+                    <img className="img-fluid" src={aboutImg} alt="" />
+                </div>
+                <div className="col-md-4">
+                    <h1>We Are Feane</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+                    <Link className="btn btn-primary px-4 p-2 rounded-4">Read More</Link>
                 </div>
             </div>
         </div>
